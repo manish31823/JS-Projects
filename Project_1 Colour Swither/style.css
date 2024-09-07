@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+}
+
+span{
+    display: block;
+}
+
+.Picture{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  #yellow {
+    background: rgb(232, 247, 25);
+  }
+  
+  #Red {
+    background: rgb(190, 18, 18);
+  }
+  #white {
+    background: rgb(253, 253, 255);
+  }
+  #Pink {
+    background: rgb(255, 0, 212);
+  }
+  
