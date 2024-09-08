@@ -1,15 +1,31 @@
-const buttons=document.querySelectorAll('.button')
-const body = document.querySelectorAll('button')
+// console.log("JS_projects")
+const buttons = document.querySelectorAll('.button');
+const body = document.querySelector('body');
 
-//js Events -performing some task or activtices is called events
- buttons.forEach(function(button){
-    console.log(buttons);
-    button.addEventListener('click',function(hihi){
-        console.log(hihi);
-        console.log(hihi.target);
-        
-        
-
-    })
+buttons.forEach(function (button) {
+  console.log(button);
+  button.addEventListener('click', function (e) {
+    console.log(e);
+    console.log(e.target);
+    if (e.target.id === 'yellow') {
+      body.style.backgroundColor = e.target.id;
+    }
+    if (e.target.id === 'Red') {
+      body.style.backgroundColor = e.target.id;
+    }
+    if (e.target.id === 'white') {
+      body.style.backgroundColor = e.target.id;
+    }
+    if (e.target.id === 'Pink') {
+      body.style.backgroundColor = e.target.id;
+    }
+    if (e.target.id === 'blue') {
+        body.style.backgroundColor = e.target.id;
+      }
+      if (e.target.id === 'green') {
+        body.style.backgroundColor = e.target.id;
+      }
     
- });
+  });
+});
+

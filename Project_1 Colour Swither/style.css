@@ -31,6 +31,11 @@ span{
     background: rgb(253, 253, 255);
   }
   #Pink {
-    background: rgb(255, 0, 212);
+    background: rgb(241, 6, 202);
   }
-  
+  #blue {
+    background-color:blue ;
+  }
+  #green{
+    background-color: greenyellow;
+  }
